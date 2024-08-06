@@ -1,0 +1,309 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice
+	xmlns="https://www.docupath.ai/specifications/DIF"
+	xmlns:cac="urn:docupath:CommonAggregateComponents:1.0"
+	xmlns:cbc="urn:docupath:CommonBasicComponents:1.0">
+	<cbc:InvoiceNumber>019516</cbc:InvoiceNumber>
+	<cbc:IssueDate>20/08/2020</cbc:IssueDate>
+	<cbc:DueDate/>
+	<cbc:DocumentCurrencyCode>CAD</cbc:DocumentCurrencyCode>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cbc:Name>YAC payables</cbc:Name>
+			<cbc:ElectronicMail/>
+			<cac:PostalAddress>
+				<cbc:StreetName>1013 Rose Street</cbc:StreetName>
+				<cbc:CityName>Regina</cbc:CityName>
+				<cbc:PostalZone>S4P 3Y2</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>CA</cbc:IdentificationCode>
+					<cbc:Name>Canada</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="GLN"/>
+				<cbc:ID schemeID="PageroID"/>
+				<cbc:CompanyID schemeID="VAT"/>
+				<cbc:CompanyID schemeID="RegistrationNo"/>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:AccountingSupplierParty>
+		<cbc:PostingDate/>
+		<cac:Party>
+			<cbc:Name>Butterfly Mechanics INC</cbc:Name>
+			<cac:PostalAddress>
+				<cbc:StreetName>2968 Merton Street</cbc:StreetName>
+				<cbc:CityName>Toronto</cbc:CityName>
+				<cbc:PostalZone>M1L 3K7</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>CA</cbc:IdentificationCode>
+					<cbc:Name>Canada</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:CompanyID schemeID="VAT"/>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:PayeeParty>
+		<cac:Party>
+			<cbc:Name/>
+			<cac:PostalAddress>
+				<cbc:StreetName/>
+				<cbc:AdditionalStreetName/>
+				<cbc:CityName/>
+				<cbc:CountrySubentity/>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode/>
+					<cbc:Name/>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:Party>
+	</cac:PayeeParty>
+	<cac:Delivery>
+		<cac:DeliveryLocation>
+			<cbc:Name/>
+			<cac:PostalAddress>
+				<cbc:StreetName/>
+				<cbc:CityName/>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode/>
+					<cbc:Name/>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:DeliveryLocation>
+		<cac:DeliveryTerms>
+			<cbc:ID/>
+			<cbc:SpecialTerms/>
+		</cac:DeliveryTerms>
+		<cbc:DeliveryMethod/>
+		<cbc:TrackingID/>
+	</cac:Delivery>
+	<cac:PaymentTerms>
+		<cbc:Description>NET 30 DAYS. 3% INTEREST PER MONTH (36% ANNUALLY) ON ALL OVERDUE INVOICES.</cbc:Description>
+		<cbc:PaymentMeansCode/>
+		<cbc:ID/>
+		<cbc:PayableAmount/>
+		<cbc:Note/>
+	</cac:PaymentTerms>
+	<cac:OrderReference>
+		<cbc:ID/>
+		<cbc:SalesOrderID>4500003901</cbc:SalesOrderID>
+	</cac:OrderReference>
+	<cac:Items>
+		<cac:Item>
+			<cbc:Description>Item 01 description</cbc:Description>
+			<cbc:Name>Item 01</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>67.57 CAD</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">5.00</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>337.85 CAD</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>337.85 CAD</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 02 description</cbc:Description>
+			<cbc:Name>Item 02</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>49.28 CAD</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">10.00</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>492.80 CAD</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>492.80 CAD</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 03</cbc:Description>
+			<cbc:Name>Item 03 description</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>76.26 CAD</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">10.00</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>762.60 CAD</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>762.60 CAD</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 04 description</cbc:Description>
+			<cbc:Name>Item 04</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>141.37 CAD</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">0.50</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>70.69 CAD</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>70.69 CAD</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 05 description</cbc:Description>
+			<cbc:Name>Item 05</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>34.16 CAD</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">1.00</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>34.16 CAD</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>34.16 CAD</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+	</cac:Items>
+	<cac:TaxTotal>
+		<cbc:TaxAmount>254.30 CAD</cbc:TaxAmount>
+		<cac:TaxSubtotal>
+			<cbc:TaxAmount>84.91 CAD</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID>TPS</cbc:ID>
+				<cbc:Percent/>
+				<cac:TaxExchangeRate>
+					<cbc:CalculationRate/>
+				</cac:TaxExchangeRate>
+			</cac:TaxCategory>
+			<cbc:BaseUnitMeasure/>
+		</cac:TaxSubtotal>
+		<cac:TaxSubtotal>
+			<cbc:TaxAmount>169.39 CAD</cbc:TaxAmount>
+			<cac:TaxCategory>
+				<cbc:ID>TVQ</cbc:ID>
+				<cbc:Percent/>
+				<cac:TaxExchangeRate>
+					<cbc:CalculationRate/>
+				</cac:TaxExchangeRate>
+			</cac:TaxCategory>
+			<cbc:BaseUnitMeasure/>
+		</cac:TaxSubtotal>
+	</cac:TaxTotal>
+	<cac:UserPaymentInfo>
+		<cbc:PaymentSubTotal/>
+		<cbc:PaymentTotal>1952.40 CAD</cbc:PaymentTotal>
+		<cbc:PaymentDueDate/>
+	</cac:UserPaymentInfo>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount>1698.10 CAD</cbc:LineExtensionAmount>
+		<cbc:TotalTaxAmount>254.30 CAD</cbc:TotalTaxAmount>
+		<cbc:PayableAmount>1952.40 CAD</cbc:PayableAmount>
+		<cbc:PayableRoundingAmount/>
+	</cac:LegalMonetaryTotal>
+</Invoice>

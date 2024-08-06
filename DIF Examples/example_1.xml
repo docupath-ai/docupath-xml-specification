@@ -1,0 +1,346 @@
+<?xml version="1.0"?>
+<Invoice>
+  <InvoiceNumber>03456</InvoiceNumber>
+  <InvoiceType>Debit</InvoiceType>
+  <IssueDate>20/08/2020</IssueDate>
+  <DueDate/>
+  <DocumentCurrencyCode>CAD</DocumentCurrencyCode>
+  <Customer>
+    <Name>Canuck CCR</Name>
+    <Email/>
+    <PostalAddress>
+      <StreetName>2385 Ste. Catherine Ouest</StreetName>
+      <CityName>Montréal-Est</CityName>
+      <PostalZone>H3K 2C3</PostalZone>
+      <Country>
+        <Code>CA</Code>
+        <Name>Canada</Name>
+      </Country>
+    </PostalAddress>
+    <GlnNo/>
+    <PageroID/>
+    <VatNo/>
+    <RegistrationNo/>
+  </Customer>
+  <Supplier>
+    <Name>Whistler Ski INC</Name>
+    <PostalAddress>
+      <StreetName>1248 Shaughnessy St</StreetName>
+      <CityName>Port Coquitlam</CityName>
+      <PostalZone>V3C 4S7</PostalZone>
+      <Country>
+        <Code>CA</Code>
+        <Name>Canada</Name>
+      </Country>
+    </PostalAddress>
+    <VatNo/>
+    <PostingDate/>
+  </Supplier>
+  <PayeeParty>
+    <Name/>
+    <PostalAddress>
+      <StreetName/>
+      <AdditionalStreetName/>
+      <CityName/>
+      <CountrySubentity/>
+      <PostalZone/>
+      <Country>
+        <Code/>
+        <Name/>
+      </Country>
+    </PostalAddress>
+  </PayeeParty>
+  <Delivery>
+    <DeliveryLocation>
+      <Name/>
+      <PostalAddress>
+        <StreetName/>
+        <CityName/>
+        <PostalZone/>
+        <Country>
+          <Code/>
+          <Name/>
+        </Country>
+      </PostalAddress>
+    </DeliveryLocation>
+    <DeliveryTerms>
+      <ID/>
+      <SpecialTerms/>
+    </DeliveryTerms>
+    <DeliveryMethod/>
+    <TrackingID/>
+  </Delivery>
+  <PaymentTerms>
+    <Description>NET 30 DAYS. 3% INTEREST PER MONTH (36% ANNUALLY) ON ALL OVERDUE INVOICES.</Description>
+    <PaymentMeansCode/>
+    <ID/>
+    <PayableAmount/>
+    <Note/>
+  </PaymentTerms>
+  <OrderReference>
+    <ID/>
+    <SalesOrderID>4500061916</SalesOrderID>
+  </OrderReference>
+  <Items>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Chaudronnier - Compagnon</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>67.57</PriceAmount>
+        <BaseQuantity unitCode="">80.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>5405.60</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Chaudronnier apprenti 2ième année</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>49.28</PriceAmount>
+        <BaseQuantity unitCode="">45.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>2217.60</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Chaudronnier - Contremaître</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>76.26</PriceAmount>
+        <BaseQuantity unitCode="">5.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>381.30</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Chaudronnier - Cont. général</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>77.44</PriceAmount>
+        <BaseQuantity unitCode="">36.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>2787.84</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Chaudronnier - Cont. général DOUBLE</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>143.66</PriceAmount>
+        <BaseQuantity unitCode="">3.50</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>502.81</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Monteur assembleur</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>72.19</PriceAmount>
+        <BaseQuantity unitCode="">40.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>2887.60</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Prime Permis</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>34.16</PriceAmount>
+        <BaseQuantity unitCode="">5.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>170.80</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+    <Item>
+      <Description>Semaine du 9 au 15 août 2020</Description>
+      <Name>Pension monteur</Name>
+      <SellersItemIdentification/>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent/>
+        <TaxScheme/>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID/>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>145.56</PriceAmount>
+        <BaseQuantity unitCode="">5.00</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>727.80</LineExtensionAmount>
+        <TotalTaxAmount/>
+        <GrossPriceAmount/>
+      </LineItem>
+    </Item>
+    
+  </Items>
+  <PaymentMethods>
+    
+  </PaymentMethods>
+  <TaxTotal>
+    <TaxAmount>2258.43</TaxAmount>
+    
+    <TaxSubtotal>
+      <Amount>754.07</Amount>
+      <Code>TPS</Code>
+      <Rate/>
+      <ExchangeRate/>
+      <BaseUnitMeasure/>
+    </TaxSubtotal>
+    
+    <TaxSubtotal>
+      <Amount>1504.36</Amount>
+      <Code>TVQ</Code>
+      <Rate/>
+      <ExchangeRate/>
+      <BaseUnitMeasure/>
+    </TaxSubtotal>
+    
+  </TaxTotal>
+  <UserPaymentInfo>
+    <PaymentSubTotal/>
+    <PaymentTotal>17339.78</PaymentTotal>
+    <PaymentDueDate/>
+  </UserPaymentInfo>
+  <LegalMonetaryTotal>
+    <LineExtensionAmount>15081.35</LineExtensionAmount>
+    <TotalTaxAmount>2258.43</TotalTaxAmount>
+    <PayableAmount>17339.78</PayableAmount>
+    <PayableRoundingAmount/>
+  </LegalMonetaryTotal>
+  <Barcodes/>
+</Invoice>

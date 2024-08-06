@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice
+	xmlns="https://www.docupath.ai/specifications/DIF"
+	xmlns:cac="urn:docupath:CommonAggregateComponents:1.0"
+	xmlns:cbc="urn:docupath:CommonBasicComponents:1.0">
+	<cbc:InvoiceNumber>00008-00001141</cbc:InvoiceNumber>
+	<cbc:IssueDate>06/01/2023</cbc:IssueDate>
+	<cbc:DueDate>05/02/2023</cbc:DueDate>
+	<cbc:DocumentCurrencyCode>ARS</cbc:DocumentCurrencyCode>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cbc:Name>ABCD BANK</cbc:Name>
+			<cbc:ElectronicMail/>
+			<cac:PostalAddress>
+				<cbc:StreetName>Suipacha 1325 Piso 03 Depto. C</cbc:StreetName>
+				<cbc:CityName>CABA</cbc:CityName>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode>AR</cbc:IdentificationCode>
+					<cbc:Name>Argentina</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="GLN"/>
+				<cbc:ID schemeID="PageroID"/>
+				<cbc:CompanyID schemeID="VAT"/>
+				<cbc:CompanyID schemeID="RegistrationNo"/>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:AccountingSupplierParty>
+		<cbc:PostingDate/>
+		<cac:Party>
+			<cbc:Name>LIONEL Y GONZALES SOCIEDAD CIVIL</cbc:Name>
+			<cac:PostalAddress>
+				<cbc:StreetName>Avenida Callao 25 Piso 3âº Oficina F</cbc:StreetName>
+				<cbc:CityName>CABA</cbc:CityName>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode>AR</cbc:IdentificationCode>
+					<cbc:Name>Argentina</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:CompanyID schemeID="VAT">20-873620-5</cbc:CompanyID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:PayeeParty>
+		<cac:Party>
+			<cbc:Name/>
+			<cac:PostalAddress>
+				<cbc:StreetName/>
+				<cbc:AdditionalStreetName/>
+				<cbc:CityName/>
+				<cbc:CountrySubentity/>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode/>
+					<cbc:Name/>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:Party>
+	</cac:PayeeParty>
+	<cac:Delivery>
+		<cac:DeliveryLocation>
+			<cbc:Name/>
+			<cac:PostalAddress>
+				<cbc:StreetName>Islas Malvinas 72 Piso 1 Depto. D</cbc:StreetName>
+				<cbc:CityName>CABA</cbc:CityName>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode>AR</cbc:IdentificationCode>
+					<cbc:Name>Argentina</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:DeliveryLocation>
+		<cac:DeliveryTerms>
+			<cbc:ID/>
+			<cbc:SpecialTerms/>
+		</cac:DeliveryTerms>
+		<cbc:DeliveryMethod/>
+		<cbc:TrackingID/>
+	</cac:Delivery>
+	<cac:PaymentTerms>
+		<cbc:Description>Account Current 30 days</cbc:Description>
+		<cbc:PaymentMeansCode/>
+		<cbc:ID/>
+		<cbc:PayableAmount/>
+		<cbc:Note/>
+	</cac:PaymentTerms>
+	<cac:OrderReference>
+		<cbc:ID/>
+		<cbc:SalesOrderID/>
+	</cac:OrderReference>
+	<cac:Items>
+		<cac:Item>
+			<cbc:Description>Item 01 description</cbc:Description>
+			<cbc:Name>Item 01</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent/>
+				<cac:TaxScheme>
+					<cbc:ID/>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID/>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>15,765.00 ARS</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="">1</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>15,765.00 ARS</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount/>
+				<cbc:GrossPriceAmount>15,765.00 ARS</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+	</cac:Items>
+	<cac:TaxTotal/>
+	<cac:UserPaymentInfo>
+		<cbc:PaymentSubTotal/>
+		<cbc:PaymentTotal>19,075.65 ARS</cbc:PaymentTotal>
+		<cbc:PaymentDueDate/>
+	</cac:UserPaymentInfo>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount>15,765.00 ARS</cbc:LineExtensionAmount>
+		<cbc:TotalTaxAmount>3,310.65 ARS</cbc:TotalTaxAmount>
+		<cbc:PayableAmount>19,075.65 ARS</cbc:PayableAmount>
+		<cbc:PayableRoundingAmount/>
+	</cac:LegalMonetaryTotal>
+</Invoice>

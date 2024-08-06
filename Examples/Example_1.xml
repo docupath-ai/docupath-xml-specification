@@ -1,0 +1,433 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Invoice
+	xmlns="https://www.docupath.ai/specifications/DIF"
+	xmlns:cac="urn:docupath:CommonAggregateComponents:1.0"
+	xmlns:cbc="urn:docupath:CommonBasicComponents:1.0">
+	<cbc:InvoiceNumber>2FG4537.0015762</cbc:InvoiceNumber>
+	<cbc:IssueDate>29 November 2022</cbc:IssueDate>
+	<cbc:DueDate/>
+	<cbc:DocumentCurrencyCode>GBP</cbc:DocumentCurrencyCode>
+	<cac:AccountingCustomerParty>
+		<cac:Party>
+			<cbc:Name>ABCDE Organization</cbc:Name>
+			<cbc:ElectronicMail/>
+			<cac:PostalAddress>
+				<cbc:StreetName>46 Park Street</cbc:StreetName>
+				<cbc:CityName>London</cbc:CityName>
+				<cbc:PostalZone>E36 9HQ</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+					<cbc:Name>United Kingdom</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:ID schemeID="GLN"/>
+				<cbc:ID schemeID="PageroID"/>
+				<cbc:CompanyID schemeID="VAT">GB393098</cbc:CompanyID>
+				<cbc:CompanyID schemeID="RegistrationNo"/>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingCustomerParty>
+	<cac:AccountingSupplierParty>
+		<cbc:PostingDate/>
+		<cac:Party>
+			<cbc:Name>Docupath IT Consultancies</cbc:Name>
+			<cac:PostalAddress>
+				<cbc:StreetName>43, 8a Street</cbc:StreetName>
+				<cbc:CityName>London</cbc:CityName>
+				<cbc:PostalZone>EC8A 34FG</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+					<cbc:Name>United Kingdom</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+			<cac:PartyIdentification>
+				<cbc:CompanyID schemeID="VAT">GB 176 294 225</cbc:CompanyID>
+			</cac:PartyIdentification>
+		</cac:Party>
+	</cac:AccountingSupplierParty>
+	<cac:PayeeParty>
+		<cac:Party>
+			<cbc:Name>John Pierce International LLP</cbc:Name>
+			<cac:PostalAddress>
+				<cbc:StreetName>185 Stanley Road</cbc:StreetName>
+				<cbc:AdditionalStreetName/>
+				<cbc:CityName>London</cbc:CityName>
+				<cbc:CountrySubentity/>
+				<cbc:PostalZone>E75 8NP</cbc:PostalZone>
+				<cac:Country>
+					<cbc:IdentificationCode>GB</cbc:IdentificationCode>
+					<cbc:Name>United Kingdom</cbc:Name>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:Party>
+	</cac:PayeeParty>
+	<cac:Delivery>
+		<cac:DeliveryLocation>
+			<cbc:Name/>
+			<cac:PostalAddress>
+				<cbc:StreetName/>
+				<cbc:CityName/>
+				<cbc:PostalZone/>
+				<cac:Country>
+					<cbc:IdentificationCode/>
+					<cbc:Name/>
+				</cac:Country>
+			</cac:PostalAddress>
+		</cac:DeliveryLocation>
+		<cac:DeliveryTerms>
+			<cbc:ID/>
+			<cbc:SpecialTerms/>
+		</cac:DeliveryTerms>
+		<cbc:DeliveryMethod/>
+		<cbc:TrackingID/>
+	</cac:Delivery>
+	<cac:PaymentTerms>
+		<cbc:Description>Payment requested within 42 days from invoice date</cbc:Description>
+		<cbc:PaymentMeansCode/>
+		<cbc:ID/>
+		<cbc:PayableAmount/>
+		<cbc:Note/>
+	</cac:PaymentTerms>
+	<cac:OrderReference>
+		<cbc:ID>2029457790</cbc:ID>
+		<cbc:SalesOrderID/>
+	</cac:OrderReference>
+	<cac:Items>
+		<cac:Item>
+			<cbc:Description>Item 01</cbc:Description>
+			<cbc:Name>Item 01 description</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>103.50 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>3774984763</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">0.90</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>517.50 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>103.50 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>621.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 02 description</cbc:Description>
+			<cbc:Name>Item 02</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>414.00 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>2029457790</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">3.60</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>2070.00 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>414.00 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>2484.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 03 description</cbc:Description>
+			<cbc:Name>Item 03</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>34.50 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>2029457790</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">0.30</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>172.50 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>34.50 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>207.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 04 description</cbc:Description>
+			<cbc:Name>Item 04 description</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>23.00 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>2029457790</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">0.20</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>115.00 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>23.00 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>138.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 05 description</cbc:Description>
+			<cbc:Name>Item 05</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>11.50 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>2029457790</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">0.10</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>57.50 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>11.50 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>69.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 06 description</cbc:Description>
+			<cbc:Name>Item 06</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>207.00 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>75478932</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">1.80</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>1035.00 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>207.00 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>1242.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 07 description</cbc:Description>
+			<cbc:Name>Item 07</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>310.50 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>235873224</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">2.70</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>1552.50 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>310.50 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>1863.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 08 description</cbc:Description>
+			<cbc:Name>Item 08</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>126.50 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>2029457790</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">1.10</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>632.50 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>126.50 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>759.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+		<cac:Item>
+			<cbc:Description>Item 09 description</cbc:Description>
+			<cbc:Name>Item 09</cbc:Name>
+			<cac:SellersItemIdentification>
+				<cbc:ID/>
+			</cac:SellersItemIdentification>
+			<cac:BuyersItemIdentification>
+				<cbc:ID/>
+			</cac:BuyersItemIdentification>
+			<cac:StandardItemIdentification>
+				<cbc:ID/>
+			</cac:StandardItemIdentification>
+			<cac:ClassifiedTaxCategory>
+				<cbc:Percent>20.00</cbc:Percent>
+				<cac:TaxScheme>
+					<cbc:ID>69.00 GBP</cbc:ID>
+				</cac:TaxScheme>
+			</cac:ClassifiedTaxCategory>
+			<cac:ItemInstance>
+				<cbc:ProductTraceID>769854342342</cbc:ProductTraceID>
+			</cac:ItemInstance>
+			<cac:Price>
+				<cbc:PriceAmount>575.00 GBP</cbc:PriceAmount>
+				<cbc:BaseQuantity unitCode="Hours">0.60</cbc:BaseQuantity>
+			</cac:Price>
+			<cac:AllowanceCharge>
+				<cbc:Amount/>
+			</cac:AllowanceCharge>
+			<cac:LineItem>
+				<cbc:ID/>
+				<cbc:LineExtensionAmount>345.00 GBP</cbc:LineExtensionAmount>
+				<cbc:TotalTaxAmount>69.00 GBP</cbc:TotalTaxAmount>
+				<cbc:GrossPriceAmount>414.00 GBP</cbc:GrossPriceAmount>
+			</cac:LineItem>
+		</cac:Item>
+	</cac:Items>
+	<cac:PaymentMeans>
+		<cbc:PaymentMeansCode>IBAN</cbc:PaymentMeansCode>
+		<cbc:InstructionNote>GB25 BARC 345 0110 897 95</cbc:InstructionNote>
+	</cac:PaymentMeans>
+	<cac:PaymentMeans>
+		<cbc:PaymentMeansCode>SWIFT</cbc:PaymentMeansCode>
+		<cbc:InstructionNote>BARCGB35</cbc:InstructionNote>
+	</cac:PaymentMeans>
+	<cac:TaxTotal/>
+	<cac:UserPaymentInfo>
+		<cbc:PaymentSubTotal/>
+		<cbc:PaymentTotal>7797.00 GBP</cbc:PaymentTotal>
+		<cbc:PaymentDueDate/>
+	</cac:UserPaymentInfo>
+	<cac:LegalMonetaryTotal>
+		<cbc:LineExtensionAmount>6497.50 GBP</cbc:LineExtensionAmount>
+		<cbc:TotalTaxAmount>1299.50 GBP</cbc:TotalTaxAmount>
+		<cbc:PayableAmount>7797.00 GBP</cbc:PayableAmount>
+		<cbc:PayableRoundingAmount/>
+	</cac:LegalMonetaryTotal>
+</Invoice>

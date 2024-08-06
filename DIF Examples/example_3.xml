@@ -1,0 +1,157 @@
+<?xml version="1.0"?>
+<Invoice>
+  <InvoiceNumber>1506434404</InvoiceNumber>
+  <InvoiceType>Debit</InvoiceType>
+  <IssueDate>17/05/2024</IssueDate>
+  <DueDate>16/06/2024</DueDate>
+  <DocumentCurrencyCode>SEK</DocumentCurrencyCode>
+  <Customer>
+    <Name>Eskilstuna Elegance</Name>
+    <Email/>
+    <PostalAddress>
+      <StreetName>Mjövattnet 50</StreetName>
+      <CityName>STOCKHOLM</CityName>
+      <PostalZone>870 30</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>SWEDEN</Name>
+      </Country>
+    </PostalAddress>
+    <GlnNo/>
+    <PageroID/>
+    <VatNo>SE55643542201</VatNo>
+    <RegistrationNo/>
+  </Customer>
+  <Supplier>
+    <Name>Linköping Leather</Name>
+    <PostalAddress>
+      <StreetName>MellanstrÖm 17A</StreetName>
+      <CityName>Stockholm-Arlanda</CityName>
+      <PostalZone>930 92</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>Sverige</Name>
+      </Country>
+    </PostalAddress>
+    <VatNo/>
+    <PostingDate/>
+  </Supplier>
+  <PayeeParty>
+    <Name>Landskrona Leather</Name>
+    <PostalAddress>
+      <StreetName>Gulleråsen Västabäcksgatu 47</StreetName>
+      <AdditionalStreetName/>
+      <CityName>Ronneby</CityName>
+      <CountrySubentity/>
+      <PostalZone>372 12</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>Sverige</Name>
+      </Country>
+    </PostalAddress>
+  </PayeeParty>
+  <Delivery>
+    <DeliveryLocation>
+      <Name>Lysekil Leather</Name>
+      <PostalAddress>
+        <StreetName>Torggatan 5</StreetName>
+        <CityName>NORDMALING</CityName>
+        <PostalZone>91433</PostalZone>
+        <Country>
+          <Code>SE</Code>
+          <Name>SWEDEN</Name>
+        </Country>
+      </PostalAddress>
+    </DeliveryLocation>
+    <DeliveryTerms>
+      <ID/>
+      <SpecialTerms>17/05/2024</SpecialTerms>
+    </DeliveryTerms>
+    <DeliveryMethod/>
+    <TrackingID/>
+  </Delivery>
+  <PaymentTerms>
+    <Description>Due within 30 days</Description>
+    <PaymentMeansCode/>
+    <ID/>
+    <PayableAmount/>
+    <Note/>
+  </PaymentTerms>
+  <OrderReference>
+    <ID/>
+    <SalesOrderID/>
+  </OrderReference>
+  <Items>
+    
+    <Item>
+      <Description>Apoteksvaror</Description>
+      <Name>Apoteksvaror</Name>
+      <SellersItemIdentification>JET-11780793</SellersItemIdentification>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent>25.00</Percent>
+        <TaxScheme>553.05</TaxScheme>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID>6428424995</ProductTraceID>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>2212.21</PriceAmount>
+        <BaseQuantity unitCode="kolli">1</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>2212.21</LineExtensionAmount>
+        <TotalTaxAmount>553.05</TotalTaxAmount>
+        <GrossPriceAmount>2765.00</GrossPriceAmount>
+      </LineItem>
+    </Item>
+    
+  </Items>
+  <PaymentMethods>
+    
+    <PaymentMethod>
+      <Code>Bankgiro</Code>
+      <Description>45343-4345</Description>
+    </PaymentMethod>
+    
+    <PaymentMethod>
+      <Code>IBAN</Code>
+      <Description>SE089 533 05660 578544</Description>
+    </PaymentMethod>
+    
+    <PaymentMethod>
+      <Code>BIC/SWIFT</Code>
+      <Description>NDEASESS</Description>
+    </PaymentMethod>
+    
+  </PaymentMethods>
+  <TaxTotal>
+    <TaxAmount>553.05</TaxAmount>
+    
+    <TaxSubtotal>
+      <Amount>553.05</Amount>
+      <Code>VAT</Code>
+      <Rate/>
+      <ExchangeRate/>
+      <BaseUnitMeasure/>
+    </TaxSubtotal>
+    
+  </TaxTotal>
+  <UserPaymentInfo>
+    <PaymentSubTotal/>
+    <PaymentTotal>2765.00</PaymentTotal>
+    <PaymentDueDate/>
+  </UserPaymentInfo>
+  <LegalMonetaryTotal>
+    <LineExtensionAmount>2212.21</LineExtensionAmount>
+    <TotalTaxAmount>553.05</TotalTaxAmount>
+    <PayableAmount>2765.00</PayableAmount>
+    <PayableRoundingAmount>-0.26</PayableRoundingAmount>
+  </LegalMonetaryTotal>
+  <Barcodes/>
+</Invoice>
