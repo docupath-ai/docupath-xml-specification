@@ -1,1 +1,1 @@
-This repository contains information about the Docupath Internal Format (DIF).
+This repository contains information about the Docupath XML specification for invoices.
