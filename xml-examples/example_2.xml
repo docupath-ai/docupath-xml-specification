@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<Invoice>
+  <InvoiceNumber>1234567890</InvoiceNumber>
+  <InvoiceType>Debit</InvoiceType>
+  <IssueDate>17/05/2024</IssueDate>
+  <DueDate>16/06/2024</DueDate>
+  <DocumentCurrencyCode>SEK</DocumentCurrencyCode>
+  <Customer>
+    <Name>Göteborg Glans</Name>
+    <Email/>
+    <PostalAddress>
+      <StreetName>Blåvitsgatan 12</StreetName>
+      <CityName>GÖTEBORG</CityName>
+      <PostalZone>411 36</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>SWEDEN</Name>
+      </Country>
+    </PostalAddress>
+    <GlnNo/>
+    <PageroID/>
+    <VatNo>SE55698765432</VatNo>
+    <RegistrationNo/>
+  </Customer>
+  <Supplier>
+    <Name>Malmö Mattor</Name>
+    <PostalAddress>
+      <StreetName>Södra Förstadsgatan 35</StreetName>
+      <CityName>Malmö</CityName>
+      <PostalZone>214 20</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>Sverige</Name>
+      </Country>
+    </PostalAddress>
+    <VatNo/>
+    <PostingDate/>
+  </Supplier>
+  <PayeeParty>
+    <Name>Uppsala Ugnar</Name>
+    <PostalAddress>
+      <StreetName>Stora Torget 8</StreetName>
+      <AdditionalStreetName/>
+      <CityName>Uppsala</CityName>
+      <CountrySubentity/>
+      <PostalZone>753 20</PostalZone>
+      <Country>
+        <Code>SE</Code>
+        <Name>Sverige</Name>
+      </Country>
+    </PostalAddress>
+  </PayeeParty>
+  <Delivery>
+    <DeliveryLocation>
+      <Name>Västerås Vaser</Name>
+      <PostalAddress>
+        <StreetName>Kopparbergsvägen 25</StreetName>
+        <CityName>VÄSTERÅS</CityName>
+        <PostalZone>721 30</PostalZone>
+        <Country>
+          <Code>SE</Code>
+          <Name>SWEDEN</Name>
+        </Country>
+      </PostalAddress>
+    </DeliveryLocation>
+    <DeliveryTerms>
+      <ID/>
+      <SpecialTerms>17/05/2024</SpecialTerms>
+    </DeliveryTerms>
+    <DeliveryMethod/>
+    <TrackingID/>
+  </Delivery>
+  <PaymentTerms>
+    <Description>Due within 30 days</Description>
+    <PaymentMeansCode/>
+    <ID/>
+    <PayableAmount/>
+    <Note/>
+  </PaymentTerms>
+  <OrderReference>
+    <ID/>
+    <SalesOrderID/>
+  </OrderReference>
+  <Items>
+    <Item>
+      <Description>Kontorsmaterial</Description>
+      <Name>Kontorsmaterial</Name>
+      <SellersItemIdentification>KNT-12345678</SellersItemIdentification>
+      <BuyersItemIdentification/>
+      <StandardItemIdentification/>
+      <ClassifiedTaxCategory>
+        <Percent>25.00</Percent>
+        <TaxScheme>625.00</TaxScheme>
+      </ClassifiedTaxCategory>
+      <ItemInstance>
+        <ProductTraceID>7891234567</ProductTraceID>
+      </ItemInstance>
+      <Price>
+        <PriceAmount>2500.00</PriceAmount>
+        <BaseQuantity unitCode="st">1</BaseQuantity>
+      </Price>
+      <AllowanceCharge>
+        <Amount/>
+      </AllowanceCharge>
+      <LineItem>
+        <ID/>
+        <LineExtensionAmount>2500.00</LineExtensionAmount>
+        <TotalTaxAmount>625.00</TotalTaxAmount>
+        <GrossPriceAmount>3125.00</GrossPriceAmount>
+      </LineItem>
+    </Item>
+  </Items>
+  <PaymentMethods>
+    <PaymentMethod>
+      <Code>Bankgiro</Code>
+      <Description>1234-5678</Description>
+    </PaymentMethod>
+    <PaymentMethod>
+      <Code>IBAN</Code>
+      <Description>SE123 4567 8901 2345</Description>
+    </PaymentMethod>
+    <PaymentMethod>
+      <Code>BIC/SWIFT</Code>
+      <Description>NDEASESS</Description>
+    </PaymentMethod>
+  </PaymentMethods>
+  <TaxTotal>
+    <TaxAmount>625.00</TaxAmount>
+    <TaxSubtotal>
+      <Amount>625.00</Amount>
+      <Code>VAT</Code>
+      <Rate/>
+      <ExchangeRate/>
+      <BaseUnitMeasure/>
+    </TaxSubtotal>
+  </TaxTotal>
+  <UserPaymentInfo>
+    <PaymentSubTotal/>
+    <PaymentTotal>3125.00</PaymentTotal>
+    <PaymentDueDate/>
+  </UserPaymentInfo>
+  <LegalMonetaryTotal>
+    <LineExtensionAmount>2500.00</LineExtensionAmount>
+    <TotalTaxAmount>625.00</TotalTaxAmount>
+    <PayableAmount>3125.00</PayableAmount>
+    <PayableRoundingAmount>-0.25</PayableRoundingAmount>
+  </LegalMonetaryTotal>
+  <Barcodes/>
+</Invoice>
