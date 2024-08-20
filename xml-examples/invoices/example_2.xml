@@ -5,6 +5,8 @@
   <IssueDate>17/05/2024</IssueDate>
   <DueDate>16/06/2024</DueDate>
   <DocumentCurrencyCode>SEK</DocumentCurrencyCode>
+  <ExchangeRate/>
+  <RefCostCenter/>
   <Customer>
     <Name>Göteborg Glans</Name>
     <Email/>
@@ -65,14 +67,14 @@
     </DeliveryLocation>
     <DeliveryTerms>
       <ID/>
-      <SpecialTerms>17/05/2024</SpecialTerms>
     </DeliveryTerms>
     <DeliveryMethod/>
+	<DeliveryDate>17/05/2024</DeliveryDate>
     <TrackingID/>
   </Delivery>
   <PaymentTerms>
     <Description>Due within 30 days</Description>
-    <PaymentMeansCode/>
+    <PaymentReference/>
     <ID/>
     <PayableAmount/>
     <Note/>
@@ -97,17 +99,15 @@
       </ItemInstance>
       <Price>
         <PriceAmount>2500.00</PriceAmount>
-        <BaseQuantity unitCode="st">1</BaseQuantity>
+        <Quantity unitCode="st">1</Quantity>
+		<Discount/>
       </Price>
-      <AllowanceCharge>
-        <Amount/>
-      </AllowanceCharge>
-      <LineItem>
-        <ID/>
-        <LineExtensionAmount>2500.00</LineExtensionAmount>
+	  <OrderReference>
+		<ID/>
+	  </OrderReference>
+	  <LineExtensionAmount>2500.00</LineExtensionAmount>
         <TotalTaxAmount>625.00</TotalTaxAmount>
-        <GrossPriceAmount>3125.00</GrossPriceAmount>
-      </LineItem>
+	  <GrossPriceAmount>3125.00</GrossPriceAmount>
     </Item>
   </Items>
   <PaymentMethods>
@@ -131,14 +131,8 @@
       <Code>VAT</Code>
       <Rate/>
       <ExchangeRate/>
-      <BaseUnitMeasure/>
     </TaxSubtotal>
   </TaxTotal>
-  <UserPaymentInfo>
-    <PaymentSubTotal/>
-    <PaymentTotal>3125.00</PaymentTotal>
-    <PaymentDueDate/>
-  </UserPaymentInfo>
   <LegalMonetaryTotal>
     <LineExtensionAmount>2500.00</LineExtensionAmount>
     <TotalTaxAmount>625.00</TotalTaxAmount>
