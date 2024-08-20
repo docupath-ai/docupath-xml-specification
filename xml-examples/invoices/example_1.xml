@@ -5,6 +5,8 @@
   <IssueDate>01/01/2023</IssueDate>
   <DueDate>01/02/2023</DueDate>
   <DocumentCurrencyCode>USD</DocumentCurrencyCode>
+  <RefCostCenter>ORD123456</RefCostCenter>
+  <ExchangeRate>1.00</ExchangeRate>
   <Customer>
     <Name>Example Corp</Name>
     <Email>example@corp.com</Email>
@@ -65,21 +67,20 @@
     </DeliveryLocation>
     <DeliveryTerms>
       <ID>DT123</ID>
-      <SpecialTerms>Fragile</SpecialTerms>
     </DeliveryTerms>
     <DeliveryMethod>Courier</DeliveryMethod>
+	<DeliveryDate>13/01/2024</DeliveryDate>
     <TrackingID>TRACK123456</TrackingID>
   </Delivery>
   <PaymentTerms>
     <Description>NET 30 DAYS. 5% DISCOUNT IF PAID WITHIN 10 DAYS.</Description>
-    <PaymentMeansCode>PM123</PaymentMeansCode>
+    <PaymentReference>PM123</PaymentReference>
     <ID>PT123</ID>
     <PayableAmount>15000.00</PayableAmount>
     <Note>Late payment will incur a fee.</Note>
   </PaymentTerms>
   <OrderReference>
-    <ID>ORD123456</ID>
-    <SalesOrderID>SO123456</SalesOrderID>
+    <ID>SO123456</ID>
   </OrderReference>
   <Items>
     <Item>
@@ -97,17 +98,15 @@
       </ItemInstance>
       <Price>
         <PriceAmount>100.00</PriceAmount>
-        <BaseQuantity unitCode="HRS">50.00</BaseQuantity>
+        <Quantity unitCode="HRS">50.00</Quantity>
+		<Discount>5.00</Discount>
       </Price>
-      <AllowanceCharge>
-        <Amount>5.00</Amount>
-      </AllowanceCharge>
-      <LineItem>
-        <ID>LI123</ID>
-        <LineExtensionAmount>5000.00</LineExtensionAmount>
-        <TotalTaxAmount>500.00</TotalTaxAmount>
-        <GrossPriceAmount>5500.00</GrossPriceAmount>
-      </LineItem>
+      <OrderReference>
+		<ID>LI123</ID>
+	  </OrderReference>
+	  <LineExtensionAmount>5000.00</LineExtensionAmount>
+	  <TotalTaxAmount>500.00</TotalTaxAmount>
+	  <GrossPriceAmount>5500.00</GrossPriceAmount>
     </Item>
   </Items>
   <PaymentMethods>
@@ -119,22 +118,13 @@
       <Amount>250.00</Amount>
       <Code>GST</Code>
       <Rate>5%</Rate>
-      <ExchangeRate>1.00</ExchangeRate>
-      <BaseUnitMeasure>USD</BaseUnitMeasure>
     </TaxSubtotal>
     <TaxSubtotal>
       <Amount>250.00</Amount>
       <Code>PST</Code>
       <Rate>5%</Rate>
-      <ExchangeRate>1.00</ExchangeRate>
-      <BaseUnitMeasure>USD</BaseUnitMeasure>
     </TaxSubtotal>
   </TaxTotal>
-  <UserPaymentInfo>
-    <PaymentSubTotal>14500.00</PaymentSubTotal>
-    <PaymentTotal>15000.00</PaymentTotal>
-    <PaymentDueDate>01/02/2023</PaymentDueDate>
-  </UserPaymentInfo>
   <LegalMonetaryTotal>
     <LineExtensionAmount>14500.00</LineExtensionAmount>
     <TotalTaxAmount>500.00</TotalTaxAmount>
