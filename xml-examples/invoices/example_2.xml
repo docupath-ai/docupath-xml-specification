@@ -114,6 +114,7 @@
     <PaymentMethod>
       <Code>Bankgiro</Code>
       <Description>1234-5678</Description>
+      <BicOrSwiftCode>GLOSDEF1NEA</BicOrSwiftCode>
     </PaymentMethod>
     <PaymentMethod>
       <Code>IBAN</Code>
