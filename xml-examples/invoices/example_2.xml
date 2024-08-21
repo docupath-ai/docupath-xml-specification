@@ -102,12 +102,12 @@
         <Quantity unitCode="st">1</Quantity>
 	<Discount/>
       </Price>
-	  <OrderReference>
-		<ID/>
-	  </OrderReference>
-	  <LineExtensionAmount>2500.00</LineExtensionAmount>
-        <TotalTaxAmount>625.00</TotalTaxAmount>
-	  <GrossPriceAmount>3125.00</GrossPriceAmount>
+      <OrderReference>
+	<ID/>
+      </OrderReference>
+      <LineExtensionAmount>2500.00</LineExtensionAmount>
+      <TotalTaxAmount>625.00</TotalTaxAmount>
+      <GrossPriceAmount>3125.00</GrossPriceAmount>
     </Item>
   </Items>
   <PaymentMethods>
