@@ -99,7 +99,7 @@
       <Price>
         <PriceAmount>100.00</PriceAmount>
         <Quantity unitCode="HRS">50.00</Quantity>
-		<Discount>5.00</Discount>
+	<Discount>5.00</Discount>
       </Price>
       <OrderReference>
 		<ID>LI123</ID>
