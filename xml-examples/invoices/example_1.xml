@@ -102,11 +102,11 @@
 	<Discount>5.00</Discount>
       </Price>
       <OrderReference>
-		<ID>LI123</ID>
-	  </OrderReference>
-	  <LineExtensionAmount>5000.00</LineExtensionAmount>
-	  <TotalTaxAmount>500.00</TotalTaxAmount>
-	  <GrossPriceAmount>5500.00</GrossPriceAmount>
+	<ID>LI123</ID>
+      </OrderReference>
+      <LineExtensionAmount>5000.00</LineExtensionAmount>
+      <TotalTaxAmount>500.00</TotalTaxAmount>
+      <GrossPriceAmount>5500.00</GrossPriceAmount>
     </Item>
   </Items>
   <PaymentMethods>
