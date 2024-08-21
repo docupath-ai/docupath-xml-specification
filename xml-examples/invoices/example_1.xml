@@ -111,6 +111,8 @@
   </Items>
   <PaymentMethods>
     <Method>Credit Card</Method>
+    <Description/>
+    <BicOrSwiftCode>GEVXDEF1NEA</BicOrSwiftCode>
   </PaymentMethods>
   <TaxTotal>
     <TaxAmount>500.00</TaxAmount>
