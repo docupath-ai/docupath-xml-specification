@@ -100,7 +100,7 @@
       <Price>
         <PriceAmount>2500.00</PriceAmount>
         <Quantity unitCode="st">1</Quantity>
-		<Discount/>
+	<Discount/>
       </Price>
 	  <OrderReference>
 		<ID/>
